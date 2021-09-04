@@ -1,0 +1,111 @@
+/* PC */
+@media (min-width:1024px){
+
+}
+
+/* Tablet and mobile */
+@media  (max-width:1023px){
+    .btn {
+        padding: 16px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px 12px;
+        font-size: 16px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    #nav .subnav a {
+        padding: 6px 12px;
+    }
+
+    #footer .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+
+    #footer .copyright a, #footer .copyright {
+        PADDING: 11px 0px;
+        display:inline-block;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .contact-info {
+        line-height: 2.1;
+    }
+
+    .contact-submit-btn{
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width:740px){
+
+    .full-width{
+        width: 100% !important;
+    }
+
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 2px 24px;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        /* trở về mặc định */
+        position: initial; 
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 6px 41px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+}
